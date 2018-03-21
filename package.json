@@ -1,6 +1,6 @@
 {
-  "name": "ensure-named-export-rule",
-  "version": "1.0.0",
+  "name": "lint-ensure-named-export-rule",
+  "version": "0.1.0",
   "description": "Lint rule to ensure named export presence",
   "main": "index.js",
   "scripts": {
