@@ -1,4 +1,3 @@
-const assert = require('assert-diff');
 const runner = require('tslint/lib/runner');
 
 const optionsFor = dir => ({
@@ -17,7 +16,6 @@ const optionsFor = dir => ({
   test: undefined,
   typeCheck: undefined
 });
-
 
 async function runOne(dir) {
   let rs;
@@ -49,18 +47,4 @@ async function runOne(dir) {
   return p;
 }
 
-const replaceCwd = (str, replaceWith) => str.replace(process.cwd(), replaceWith);
-
-//
-async function runAll() {
-  const { output } = await runOne('/Users/iov/git/own/ensure-named-export-rule/lib/tslint/test/01');
-  const strings = output.split('\n').filter(Boolean);
-
-  assert.deepEqual(
-    replaceCwd(strings[0], '???'),
-    'ERROR: ???/lib/tslint/test/01/someModule.ts[1, 1]: module must have an export corresponding to file name (expected export name "someModule")'
-  );
-}
-
-runAll();
-
+module.exports.runOne = runOne;

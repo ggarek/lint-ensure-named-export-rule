@@ -1,0 +1,6 @@
+{
+    "rulesDirectory": ["../../rule/"],
+    "rules": {
+        "ensure-named-export": [true, "pascalCase"]
+    }
+}
