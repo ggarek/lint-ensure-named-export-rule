@@ -13,7 +13,7 @@ This rule makes it, so to say, one step further.
  
 # How it works in a few words
 
-A file, named `mySuperModule.js`, must a have an export, also named `mySuperModule`.
+A file, named `mySuperModule.js`, must have an export, also named `mySuperModule`.
 
 The rule supports an option to specify case conversion. Using which one can say:
 A file, named `mySuperModule.js`, must a have an export, named `my_super_module` or `MySuperModule` etc.
