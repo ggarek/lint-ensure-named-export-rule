@@ -1,0 +1,15 @@
+{
+  "name": "ensure-named-export-rule",
+  "version": "1.0.0",
+  "description": "Lint rule to ensure named export presence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lint",
+    "tslint"
+  ],
+  "author": "Igor Ovsiannikov <garek@mail.ru>",
+  "license": "MIT"
+}
