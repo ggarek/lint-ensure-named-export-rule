@@ -11,7 +11,7 @@
     "tslint"
   ],
   "author": "Igor Ovsiannikov <garek@mail.ru>",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "change-case": "^3.0.2",
     "tslint": "^5.9.1",
