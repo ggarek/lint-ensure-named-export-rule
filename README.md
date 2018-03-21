@@ -3,8 +3,13 @@
 There is a rule to disallow default exports [`no-default-export`][1]
 This rule makes it, so to say, one step further.
 Using `ensure-named-export-rule` one can assert that a module has named export named over the file name.
+
+# Lint tools support
+
+- [x] tslint rule
+- [ ] eslint rule
  
-# Example
+# How it works in a few words
 
 A file, named `mySuperModule.js`, must a have an export, also named `mySuperModule`.
 
@@ -29,7 +34,7 @@ A file, named `mySuperModule.js`, must a have an export, named `my_super_module`
 
 :question:_(Why not all from the `change-case`? Because the rest of them seem to have no sense in this context)_
 
-# Dependecies
+# Dependencies
 
 Case conversion is done with [change-case][2] :heart:
 
