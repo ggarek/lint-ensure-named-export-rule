@@ -1,8 +1,10 @@
 # ensure-named-export-rule
 
-There is a rule to disallow default exports [`no-default-export`][1]
+There is a rule to disallow default exports [`no-default-export`][1].
+
 This rule makes it, so to say, one step further.
-Using `ensure-named-export-rule` one can assert that a module has named export named over the file name.
+
+:information_source: Using `ensure-named-export-rule` one can assert that a module has named export named over the file name.
 
 # Lint tools support
 
