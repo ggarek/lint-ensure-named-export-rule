@@ -11,5 +11,10 @@
     "tslint"
   ],
   "author": "Igor Ovsiannikov <garek@mail.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "change-case": "^3.0.2",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  }
 }
