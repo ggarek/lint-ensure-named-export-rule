@@ -1,10 +1,3 @@
-/**
- * @license
- * Copyright 2013 Palantir Technologies, Inc.
- */
-
-// TODO: validate rule options
-
 import * as changeCase from "change-case";
 import * as Lint from "tslint";
 import * as ts from "typescript";
